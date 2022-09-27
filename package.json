@@ -43,7 +43,8 @@
   },
   "scripts": {
     "build": "webpack --mode production", 
-    "deploy": "gh-pages -b build -d build"
+    "deploy": "gh-pages -b build -d build",
+    "prepare": "npm run build"
   },
   "dependencies": {}
 }
